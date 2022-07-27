@@ -636,10 +636,6 @@ video {
   display: flex;
 }
 
-.table {
-  display: table;
-}
-
 .hidden {
   display: none;
 }
@@ -650,10 +646,6 @@ video {
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .bg-dark {
@@ -717,14 +709,6 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.lowercase {
-  text-transform: lowercase;
 }
 
 .text-green {
