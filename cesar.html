@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="icon" href="img/logo.jpg" type="image/x-icon" />
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>encrypt your message!</title>
+    </head>
+    <body class="bg-dark">
+        <div class="relative container mx-auto">
+            <header>
+                <h2 class="text-3xl text-center text-green mt-28">Encryption By César</h2>
+            </header>
+            <form class="text-center mt-28 text-white" method="post" action="php/cesar.php">
+                <p class="text-xl">Enter your message : </p>
+                <textarea name="msg" cols="50" rows="5" class="p-6 mt-6 text-lg text-dark" required></textarea><br>
+                <p class="text-xl my-6">Enter the key : </p>
+                <input type="number" name="key" class="text-center text-lg text-dark"><br>
+                <button type="submit" class="mt-20 py-3 px-5">ENCRYPT</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&display=swap');
+header h2{
+    font-family: 'Press Start 2P', cursive;
+}
+section{
+    font-family: 'Fira Code', monospace;
+}
+section div:hover{
+    border: 1px solid greenyellow;
+}
+form button{
+    border: 1px solid greenyellow;
+    border-radius: 18px;
+}
+form button:hover{
+    background-color: greenyellow;
+    color: #22202e;
+}
