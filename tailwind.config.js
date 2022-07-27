@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.{html,php}'],
+  content: [
+    './*.{html,php}',
+    './php/vegenere/*.php',
+  ],
   theme: {
     screens: {
       sm: '480px',
