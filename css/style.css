@@ -16,3 +16,6 @@ form button:hover{
     background-color: greenyellow;
     color: #22202e;
 }
+.message{
+    border: 1px solid #adff2f;
+}
