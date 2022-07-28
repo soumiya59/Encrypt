@@ -1,10 +1,9 @@
 <?php               
-include "vegenere.php";
+include "php/vegenere.php";
 if(isset($_POST['submit'])){
     $key = $_POST['key'];
     $msg = $_POST['msg'];
     $cipherText = Encipher($msg, $key);
-
 }
 ?> 
 <html>
