@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "tailwind -i ./input.css -o ./css/main.css",
-    "watch": "tailwind -i ./input.css -o ./css/main.css --watch"  
+    "watch": "tailwind -i ./input.css -o ./css/main.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "firebase": "^9.9.1"
   }
 }
