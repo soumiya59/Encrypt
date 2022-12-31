@@ -3,10 +3,8 @@
 <br>
 
 ## 📌 About The Project
----
 
 ### 📷 Screenshots
-<br>
 
 #### Home page 
 
@@ -25,26 +23,16 @@
 ![Product Name Screen Shot](./img/screens/decCesar.png)
 
 ## 🔧 Built With
----
-<br>
 
 * ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 * ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-<br>
-
 ## ❗ Prerequisites
----
-<br>
 
 * Apache2
 * PHP
 
-<br>
-
 ## 🤝 Contact
----
-<br>
 
 Ayouch Soumiya - ayouch.somaya@gmail.com
 
