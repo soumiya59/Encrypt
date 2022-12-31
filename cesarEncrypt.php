@@ -17,23 +17,23 @@ if(isset($_POST['submit'])){
         <title>encrypt your message!</title>
     </head>
     <body class="bg-dark">
-        <div class="relative container mx-auto">
+        <div class="container relative mx-auto">
             <header>
                 <h2 class="text-3xl text-center text-green mt-28">Encryption By César</h2>
             </header>
-            <form class="text-center mt-28 text-white" method="post" action="">
+            <form class="text-center text-white mt-28 form-anticlear" method="post" >
                 <p class="text-xl">Enter your message : </p>
-                <textarea name="msg" cols="50" rows="5" class="p-6 mt-6 text-lg text-dark" required></textarea><br>
-                <p class="text-xl my-6">Enter the key : </p>
-                <input type="number" name="key" class="text-center text-lg text-dark"><br>
-                <button type="submit" name="submit" class="mt-9 mb-3 py-3 px-5">ENCRYPT</button>
+                <textarea name="msg" cols="50" rows="5" class="p-6 mt-6 text-lg text-dark" value="<?=$msg?>"  required></textarea><br>
+                <p class="my-6 text-xl" value="<?=$key?>" >Enter the key : </p>
+                <input type="number" name="key" class="text-lg text-center text-dark"><br>
+                <button type="submit" name="submit" class="px-5 py-3 mb-3 mt-9">ENCRYPT</button>
             </form>
 
             <?php
             if(isset($result)){ 
-                echo '<div class="mx-auto text-white w-3/4">
-                <p class="text-center text-xl txt">Your encrypted message is :</p>
-                <div class="flex message py-11 px-7 mt-10">
+                echo '<div class="w-3/4 mx-auto text-white">
+                <p class="text-xl text-center txt">Your encrypted message is :</p>
+                <div class="flex mt-10 message py-11 px-7">
                     <p class="flex-1 text-2xl encrypted" >
                     '.$result.'
                     </p>
@@ -60,6 +60,6 @@ if(isset($_POST['submit'])){
                 )
             })
         </script>
-
+        <script src="https://cdn.jsdelivr.net/gh/akjpro/form-anticlear/base.js"></script>
     </body>
 </html>
