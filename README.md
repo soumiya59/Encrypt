@@ -1,10 +1,8 @@
 ![Markdown Logo](./img/banner.png)
-### this project helps you encrypt your messages or decrypt them using ciphers like Caesar , vigenère and The transposition technique .
+this project helps you encrypt your messages or decrypt them using ciphers like Caesar , vigenère and The transposition technique .
 <br>
 
-## 📌 About The Project
-
-### 📷 Screenshots
+## 📷 Screenshots
 
 #### Home page 
 
@@ -26,11 +24,6 @@
 
 * ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 * ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-## ❗ Prerequisites
-
-* Apache2
-* PHP
 
 ## 🤝 Contact
 
